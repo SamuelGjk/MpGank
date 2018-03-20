@@ -1,0 +1,5 @@
+<!--pages/ios/ios.wxml-->
+<view>
+  <ganks id="ganks" gank-type="iOS" />
+  <search-fab />
+</view>

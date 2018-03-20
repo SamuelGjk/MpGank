@@ -1,0 +1,2 @@
+<!--component/search/search-fab.wxml-->
+<icon type="search" color="#FFF" size="22" class="search-fab" bindtap="onClick" />

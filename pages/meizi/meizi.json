@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search-fab": "../../component/search/search-fab"
+  },
+  "enablePullDownRefresh": true
+}

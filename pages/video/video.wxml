@@ -1,0 +1,5 @@
+<!--pages/video/video.wxml-->
+<view>
+  <ganks id="ganks" gank-type="休息视频" />
+  <search-fab />
+</view>

@@ -1,0 +1,12 @@
+/* component/search/search-fab.wxss */
+.search-fab {
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  padding: 22rpx;
+  background-color: #607D8B;
+  border-radius: 500rpx;
+  box-shadow: 0 4rpx 6rpx #666;
+}

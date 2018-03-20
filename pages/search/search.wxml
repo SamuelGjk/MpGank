@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<view class="container">
+  <input class="search-input" placeholder="搜一下吧，大爷.." bindconfirm="onSearch" />
+
+  <block wx:for="{{results}}" wx:for-item="result" wx:key="_id">
+    <view class="result-item" data-title="{{result.desc}}" data-url="{{result.url}}" bindtap="onItemClick">
+      <text class="title">{{result.desc}}</text>
+      <text class="date">{{result.who}} · {{result.publishedAt}}</text>
+    </view>
+  </block>
+
+  <text class="loading" hidden="{{loadingHidden}}">loading</text>
+</view>

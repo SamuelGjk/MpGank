@@ -1,0 +1,5 @@
+<!--pages/android/android.wxml-->
+<view>
+  <ganks id="ganks" gank-type="Android" />
+  <search-fab />
+</view>

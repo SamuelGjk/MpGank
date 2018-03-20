@@ -1,0 +1,22 @@
+<!--pages/meizhi/meizhi.wxml-->
+<view>
+  <view class="container">
+    <view class="meizi-container">
+      <view class="meizi-list left">
+        <image class="meizi" mode="widthFix" wx:for="{{meizis}}" wx:for-item="meizi" wx:key="_id" src="{{meizi.url}}" data-src="{{meizi.url}}" bindtap="onItemClick" wx:if="{{index % 2 == 0}}" />
+      </view>
+      <view class="meizi-list right">
+        <image class="meizi" mode="widthFix" wx:for="{{meizis}}" wx:for-item="meizi" wx:key="_id" src="{{meizi.url}}" data-src="{{meizi.url}}" bindtap="onItemClick" wx:if="{{index % 2 != 0}}" />
+      </view>
+    </view>
+    <text class="loading" hidden="{{loadingHidden}}">loading</text>
+  </view>
+
+  <search-fab />
+
+  <view class="single-image-container" hidden="{{singleImageHidden}}" catchtouchmove="onTouchMove">
+    <image class="single-image" style="opacity: {{opacity}};" mode="aspectFit" src="{{singleImage}}" animation="{{opacityAnimation}}" bindtap="onSingleImageClick" bindload="onImageLoad" wx:if="{{singleImage}}" />
+
+    <icon type="download" color="#607D8B" size="40" class="save" bindtap="saveImage" />
+  </view>
+</view>

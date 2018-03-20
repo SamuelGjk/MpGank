@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ganks": "../../component/ganks/ganks",
+    "search-fab": "../../component/search/search-fab"
+  },
+  "enablePullDownRefresh": true
+}

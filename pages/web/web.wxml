@@ -1,0 +1,5 @@
+<!--pages/web/web.wxml-->
+<view>
+  <ganks id="ganks" gank-type="前端" />
+  <search-fab />
+</view>

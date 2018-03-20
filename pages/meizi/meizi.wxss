@@ -1,0 +1,56 @@
+/* pages/meizhi/meizhi.wxss */
+
+.meizi-container {
+  width: 100%;
+  height: 100%;
+  padding: 10rpx 16rpx;
+  box-sizing: border-box;
+}
+
+.meizi-list {
+  width: 49%;
+  height: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.meizi {
+  width: 100%;
+  border-radius: 6rpx;
+  box-shadow: 0 4rpx 6rpx 2rpx #ddd;
+  margin: 6rpx 0;
+}
+
+.single-image-container {
+  background-color: rgba(0, 0, 0, 0.66);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-image {
+  width: 90%;
+  height: 100%;
+}
+
+.save {
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  background-color: #ffffff;
+  border-radius: 500rpx;
+  box-shadow: 0 4rpx 6rpx #000;
+}

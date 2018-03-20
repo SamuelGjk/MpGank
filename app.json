@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/meizi/meizi",
+    "pages/android/android",
+    "pages/ios/ios",
+    "pages/details/details",
+    "pages/web/web",
+    "pages/video/video",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#607D8B",
+    "navigationBarTitleText": "Gank.io",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#607D8B",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "backgroundColor": "#607D8B",
+    "color": "#BBBBBB",
+    "selectedColor": "#FFFFFF",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/meizi/meizi",
+        "text": "妹子"
+      },
+      {
+        "pagePath": "pages/android/android",
+        "text": "Android"
+      },
+      {
+        "pagePath": "pages/ios/ios",
+        "text": "iOS"
+      },
+      {
+        "pagePath": "pages/web/web",
+        "text": "前端"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      }
+    ]
+  }
+}
